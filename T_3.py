@@ -37,7 +37,7 @@ else:
 
 altura_actual = altura_inicial + (VELOCIDAD_INICIAL * tiempo) + (0.5 * GRAVEDAD * (tiempo ** 2))
 
-if altura_actual > 0:
+if altura_actual < 0:
     print(f"la altura en el segundo {tiempo} del objecto es {altura_actual} ... en la Tierra, claro")
 else: 
     print("el objecto esta en el sueloooo")
